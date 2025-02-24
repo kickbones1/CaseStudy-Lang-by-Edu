@@ -3,6 +3,12 @@
 ## The Task
 The goal of this Case Study is to analyse the foreign language proficiency of individuals living in Germany, France, Belgium and Sweden compared to the EU average. The focus of this Analysis lies on the number of foreign languages known by individuals aged 18-69 for the year 2022. The Dataset is from [Eurostat](https://ec.europa.eu/eurostat/en/).
 
+## The Graph
+![](CaseStudy_Graph.png)
+
+Source:
+[Eurostat](https://ec.europa.eu/eurostat/databrowser/view/edat_aes_l23/default/table?lang=en&category=educ.educ_lang.educ_lang_00.edat_aes_l2)
+
 ## The R Code
 
     library(dplyr)
@@ -123,9 +129,3 @@ The goal of this Case Study is to analyse the foreign language proficiency of in
         axis.title.y = element_text(size = 10, face = "bold"),
         legend.position = "none"
       )
-
-## The Graph
-![](CaseStudy_Graph.png)
-
-Source:
-[Eurostat](https://ec.europa.eu/eurostat/databrowser/view/edat_aes_l23/default/table?lang=en&category=educ.educ_lang.educ_lang_00.edat_aes_l2)
